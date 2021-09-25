@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="Container text-center">
+    <h1>Welcome to Meeting Planner</h1>
+</div>
+   <div class=" Container text-center">
+       <h3><a th:href="@{/list_users}">users</a></h3>
+       <h3><a th:href="@{/register}">Register</a></h3>
+       <h3><a th:href="@{/login}">Login</a></h3>
+   </div>
+</body>
+</html>
